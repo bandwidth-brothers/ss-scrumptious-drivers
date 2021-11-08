@@ -18,11 +18,4 @@ import org.springframework.web.bind.annotation.RequestBody;
 	 @PostMapping(value = "/auth/driver/register")
 	 ResponseEntity<UUID> createNewAccountDriver(@Valid @RequestBody AuthDto authDto);
 
-//   @PutMapping(value = EndpointConstants.API_V_0_1_ACCOUNTS + "/customer/{customerId}",
-//       consumes = MediaType.TEXT_PLAIN_VALUE)
-//   ResponseEntity<Void> updateCustomerEmail(@RequestHeader(value = "Authorization")
-//                                         String authorizationHeader,
-//                                         @PathVariable UUID customerId,
-//                                         @RequestBody String newEmail);
-
  }
